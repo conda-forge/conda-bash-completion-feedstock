@@ -11,7 +11,7 @@ source:
 
 build:
   number: 0
-  skip: True  # [win or osx]
+  skip: True  # [win]
 
 requirements:
   run:
@@ -20,11 +20,9 @@ requirements:
 test:
   source_files:
     - conda
+
   requires:
     - bash >=4.1
-  commands:
-    # Ensure the library loads without error
-    - bash -e conda
 
 about:
   home: https://github.com/tartansandal/conda-bash-completion
