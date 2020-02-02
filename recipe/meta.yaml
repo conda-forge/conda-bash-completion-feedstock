@@ -10,8 +10,8 @@ source:
   sha256: 82fa38dae6cec42095b5a1f82d5db41b35a7a2c35642a9b7ad548385ae601659
 
 build:
-  number: 0
-  skip: True  # [win or osx]
+  number: 1
+  skip: True  # [win]
 
 requirements:
   run:
@@ -20,11 +20,9 @@ requirements:
 test:
   source_files:
     - conda
+
   requires:
     - bash >=4.1
-  commands:
-    # Ensure the library loads without error
-    - bash -e conda
 
 about:
   home: https://github.com/tartansandal/conda-bash-completion
