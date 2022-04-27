@@ -26,7 +26,7 @@ test:
 
 about:
   home: https://github.com/tartansandal/conda-bash-completion
-  license: GPL3
+  license:  GPL-3.0-only
   license_file: LICENSE
   summary: Bash completion for the conda commmand.
 
