@@ -1,5 +1,5 @@
 {% set name = "conda-bash-completion" %}
-{% set version = "1.5" %}
+{% set version = "1.6" %}
 
 package:
   name: {{ name|lower }}
@@ -7,11 +7,11 @@ package:
 
 source:
   url: https://github.com/tartansandal/{{ name }}/archive/{{ version }}.tar.gz
-  sha256: 82fa38dae6cec42095b5a1f82d5db41b35a7a2c35642a9b7ad548385ae601659
+  sha256: 49d3be82eeb4a3e96cbc40f268988ad24d6367650e078f152149a3e2eb886039
 
 build:
-  number: 1
-  skip: True  # [win]
+  number: 0
+  skip: true  # [win]
 
 requirements:
   run:
@@ -28,7 +28,7 @@ about:
   home: https://github.com/tartansandal/conda-bash-completion
   license: GPL3
   license_file: LICENSE
-  summary: "Bash completion for the conda commmand."
+  summary: Bash completion for the conda commmand.
 
 extra:
   recipe-maintainers:
