@@ -3,7 +3,7 @@ About conda-bash-completion
 
 Home: https://github.com/tartansandal/conda-bash-completion
 
-Package license: GPL3
+Package license: GPL-3.0-only
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/conda-bash-completion-feedstock/blob/main/LICENSE.txt)
 
